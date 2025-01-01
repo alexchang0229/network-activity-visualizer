@@ -19,3 +19,7 @@ On the board I soldered 40 x SMD5730 white LEDs, these are controlled by 5 x TLC
 The Pi and the TLC5916s are powered by a 5V wall power adapter, that power is also used by a buck converter to bring it down to 3.2 V for the LEDs.
 
 The code for the ESP-32 can be found in `./wifiSniffer/WifiSniffer.ino`, the code is from [ESP-EOS/ESP32-WiFi-Sniffer](https://github.com/ESP-EOS/ESP32-WiFi-Sniffer). The ESP-32 is connected to the Raspberry Pi by USB, it prints detected WiFi packets to serial, and the Python script on the Raspberry Pi reads it.
+
+After connecting the ESP-32 to the Pi and running `main.py` the intercepted packets will print in the terminal 
+![image](https://github.com/user-attachments/assets/e69a98d0-4dc8-40d5-92c0-8eb889e31741)
+
