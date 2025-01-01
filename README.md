@@ -1,5 +1,7 @@
 # Network activity visualizer
-I 3D printed a [geodesic dome](https://en.wikipedia.org/wiki/Geodesic_dome) and hooked up some flashing LEDs and fiber optic cables to visualize the nearby network activity, it looks pretty cool in the dark.
+This project is a 3D printed [geodesic dome](https://en.wikipedia.org/wiki/Geodesic_dome) hooked up with flashing LEDs and fiber optic cables to visualize the nearby network activity, it looks pretty cool in the dark.
+
+![image](./demo.gif)
 
 I used an ESP-32 in promiscuous mode to sniff WiFi packets and get their MAC addresses, and 40 individually addressable LEDs that flash when a packet is detected.
 ## How
