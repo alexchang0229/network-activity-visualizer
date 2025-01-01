@@ -11,7 +11,7 @@ To assemble the geodesic sphere, I printed 30 x hexagonal joints and 12 x pentag
 The 3D files can be found on my thingiverse [here](https://www.thingiverse.com/thing:6896625). I used ~75 m of [1.5 mm side glow fiber optic cable](https://www.aliexpress.com/item/32807597828.html?spm=a2g0o.order_list.order_list_main.36.3d891802ASmCDw), each fiber optic cable is connected to the PCB holder, onto each LED, then routed around the 3D printed joints to create a web pattern.
 
 
-The KiCad PCB scematics can be found in `pcb.zip`, I had it made with JLC PCB.
+The KiCad PCB schematics can be found in `pcb.zip`, I had it made with JLC PCB.
 <img src="https://github.com/user-attachments/assets/c205f653-6d94-40c7-ba2f-4350611aec39" alt="pcb" height="350"/>
 
 On the board I soldered 40 x SMD5730 white LEDs, these are controlled by 5 x TLC5916 LED sink drivers. The TLC5916s are controlled by a Raspberry Pi.
